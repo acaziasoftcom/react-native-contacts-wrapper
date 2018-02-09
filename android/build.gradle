@@ -1,0 +1,24 @@
+apply plugin: "com.android.library"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+}
+
+dependencies {
+    compile "com.facebook.react:react-native:+"  // From node_modules
+}
+
